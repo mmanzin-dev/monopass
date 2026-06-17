@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">monopass</string>
+    <string name="username">Username</string>
+    <string name="master_password">Master Password</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="my_trezor">Trezor</string>
+    <string name="generator">Generator</string>
+    <string name="settings">Settings</string>
+    <string name="add_entry">Add Login</string>
+    <string name="edit_entry">Edit Login</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="web_url">Web URL</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="fill_all_fields">Fill all fields</string>
+    <string name="invalid_credentials">Wrong username or password</string>
+    <string name="username_taken">Username already exists</string>
+    <string name="account_created">Account created!</string>
+    <string name="generate">Generate</string>
+    <string name="length_label">Length: </string>
+    <string name="include_characters">Include characters</string>
+    <string name="min_numbers">Minimum numbers</string>
+    <string name="min_special">Minimum special characters</string>
+    <string name="settings_label">Settings Unavailable</string>
+    <string name="length_too_short">Increase length to meet minimum</string>
+    <string name="password_label">Show Password</string>
+    <string name="language">Jezik / Language</string>
 </resources>

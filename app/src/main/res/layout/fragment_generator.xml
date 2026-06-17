@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvGeneratedPassword"
+            android:text="vB02PcKOQieXV"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="28dp"
+            android:background="#F5F5F5"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnGenerate"
+            android:text="@string/generate"
+            android:padding="24dp"
+            android:layout_marginBottom="28dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvLengthLabel"
+            android:text="@string/length_label"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <SeekBar
+            android:id="@+id/seekBarLength"
+            android:min="8"
+            android:max="42"
+            android:progress="21"
+            android:layout_marginBottom="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="@string/include_characters"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <CheckBox
+            android:id="@+id/cbUppercase"
+            android:text="A-Z"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <CheckBox
+            android:id="@+id/cbLowercase"
+            android:text="a-z"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <CheckBox
+            android:id="@+id/cbNumbers"
+            android:text="0-9"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <CheckBox
+            android:id="@+id/cbSymbols"
+            android:text="!@#$%^&amp;*"
+            android:checked="false"
+            android:layout_marginBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="@string/min_numbers"
+            android:textStyle="bold"
+            android:layout_marginBottom="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnMinNumMinus"
+                android:text="-"
+                android:textSize="18sp"
+                android:padding="7dp"
+                android:layout_width="48dp"
+                android:layout_height="48dp"/>
+
+            <TextView
+                android:id="@+id/tvMinNumbers"
+                android:text="0"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btnMinNumPlus"
+                android:text="+"
+                android:textSize="18sp"
+                android:padding="7dp"
+                android:layout_width="48dp"
+                android:layout_height="48dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/min_special"
+            android:textStyle="bold"
+            android:layout_marginBottom="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnMinSpecMinus"
+                android:text="-"
+                android:textSize="18sp"
+                android:padding="7dp"
+                android:layout_width="48dp"
+                android:layout_height="48dp"/>
+
+            <TextView
+                android:id="@+id/tvMinSpecial"
+                android:text="0"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btnMinSpecPlus"
+                android:text="+"
+                android:textSize="18sp"
+                android:padding="7dp"
+                android:layout_width="48dp"
+                android:layout_height="48dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/trezorFragment">
+
+    <fragment
+        android:id="@+id/trezorFragment"
+        android:name="com.example.monopass.ui.TrezorFragment"
+        android:label="@string/my_trezor"/>
+
+    <fragment
+        android:id="@+id/generatorFragment"
+        android:name="com.example.monopass.ui.GeneratorFragment"
+        android:label="@string/generator"/>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.monopass.ui.SettingsFragment"
+        android:label="@string/settings"/>
+
+</navigation>
